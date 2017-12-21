@@ -48,6 +48,6 @@ In the third part we created a python software which performed two types of quer
 
          j)  shortest_path  (using Dijkstra's algorithm find shortest path beetwen Aris and input node, takes in input graph object and two nodes)
 
-    - takes in input a subset of nodes (>21)(>21) and returns, for each node of the graph, its GroupNumber. We implemented a function which
+    - takes in input a subset of nodes (>21) and returns, for each node of the graph, its GroupNumber. We implemented a function which
 
 
