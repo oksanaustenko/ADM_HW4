@@ -42,12 +42,12 @@ It also make a plot for every type of measure using a color intensities for high
 
 In the third part we created a python software which performed two types of queries:
 
-    takes in input an author (id) and returns the weight of the shortest path that connects the input author with Aris. It's done by functions:
+   - takes in input an author (id) and returns the weight of the shortest path that connects the input author with Aris. It's done by functions:
 
-    i)  aris  (search for id which corresponds to name Aris in the file)
+         i)  aris  (search for id which corresponds to name Aris in the file)
 
-    j)  shortest_path  (using Dijkstra's algorithm find shortest path beetwen Aris and input node, takes in input graph object and two nodes)
+         j)  shortest_path  (using Dijkstra's algorithm find shortest path beetwen Aris and input node, takes in input graph object and two nodes)
 
-    takes in input a subset of nodes (>21)(>21) and returns, for each node of the graph, its GroupNumber. We implemented a function which
+    - takes in input a subset of nodes (>21)(>21) and returns, for each node of the graph, its GroupNumber. We implemented a function which
 
 
