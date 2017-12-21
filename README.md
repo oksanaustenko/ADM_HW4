@@ -38,7 +38,7 @@ It also make a plot for every type of measure using a color intensities for high
          h) bfs_components  (algoritm which performes distances of length $d$). 
 
 
- Part3
+## ___Part3___
 
 In the third part we created a python software which performed two types of queries:
 
