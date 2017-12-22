@@ -1,6 +1,9 @@
 # ADM_HW4
 ## Homework 4 Group 15
 
+modules.py - contains all functions
+main.py - running file
+
 ## ___Part1___
 The first part of homework required to parse json files and building a graph object.Given file contains dictionaries with authors, their pubblications and conferences in which they partecipated.
 
