@@ -16,7 +16,7 @@ Creation of dictionaries is performed by two function which takes in input only 
 
     b)  conference_dict
 
-Subsequenly we created a graph object by adding nodes and weighted edges only for authors who has at least one pubblication in common. We used two functions, one for calculate jaccard distances beetwen sets of pubblications and other for building a graph:
+Subsequenly we created a graph object by adding nodes and weighted edges only for authors who has at least one pubblication in common. We used two functions, one for calculate jaccard distances beetwen sets of pubblications to build a graph:
 
      c)  jaccard  (takes in input two author's ids)
 
