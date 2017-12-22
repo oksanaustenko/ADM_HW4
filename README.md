@@ -8,15 +8,15 @@ By parsing json documents, we created one dictionary with all author_id's like a
 
 Creation of dictionaries is performed by two function which takes in input only a full path of the json file:
 
-    a)  load_data
+    a)  process_data
 
     b)  conference_dict
 
 Subsequenly we created a graph object by adding nodes and weighted edges only for authors who has at least one pubblication in common. We used two functions, one for calculate jaccard distances beetwen sets of pubblications and other for building a graph:
 
-     c)  jaccard_weights  (takes in input two author's ids)
+     c)  jaccard  (takes in input two author's ids)
 
-     d)  build_graph   (takes in input a dictionary created by a function load_data on the previous step)
+     d)  buildGraph   (takes in input a dictionary created by a function load_data on the previous step)
 
 ## ___Part2___
 The second part required to create some subgraphs:
@@ -44,10 +44,12 @@ In the third part we created a python software which performed two types of quer
 
    - takes in input an author (id) and returns the weight of the shortest path that connects the input author with Aris. It's done by functions:
 
-         i)  aris  (search for id which corresponds to name Aris in the file)
+         i)  ariss  (search for id which corresponds to name Aris in the file)
 
-         j)  shortest_path  (using Dijkstra's algorithm find shortest path beetwen Aris and input node, takes in input graph object and two nodes)
+         j)  dijkstra  (using Dijkstra's algorithm find shortest path beetwen Aris and input node, takes in input graph object and two nodes)
 
     - takes in input a subset of nodes (>21) and returns, for each node of the graph, its GroupNumber. We implemented a function which
-
+        
+          k)  buildGroupNumber (builds a dictionary to store distances from every node of the graph to input nodes)
+          m)  groupNumber (get the minimum from a dictionary for every node in the input)
 
